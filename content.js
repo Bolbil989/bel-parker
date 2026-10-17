@@ -1,0 +1,157 @@
+/* A copy of content.json, used only when index.html is opened straight from your computer.
+   The live website always reads content.json, which is what the editor (Pages CMS) changes. */
+window.SITE = {
+"settings": {"email": "belparker31@gmail.com", "instagram": "muta_bel", "cv": "files/bel-parker-cv.pdf", "show_placeholders": true},
+
+"home": {
+ "name": "Bel Parker",
+ "tagline": "Director Etcetera",
+ "intro": "Theatre director and multidisciplinary artist working across theatre, film, clown, and musicals.",
+ "image": "img/p3.jpg",
+ "image_alt": "Portrait of Bel Parker",
+ "selected": ["duvet", "hansel-and-gretel", "wnkers", "summoning-sondheim", "cashmoney-now"]
+},
+
+"about": {
+ "image": "img/p1.jpg",
+ "image_alt": "Bel Parker with lead actor Tee Odom behind the scenes on Duvet",
+ "lines": ["A promenade fairy tale.", "A horror film starring a duvet.", "A musical séance for Stephen Sondheim.", "Two queer joculatrixes spitting venom."],
+ "bio": "<p>Bel Parker trained in physical theatre, mask and movement at L’École Internationale de Théâtre Jacques Lecoq in Paris, and in clown and bouffon with Philippe Gaulier.</p><p>From 2021 to 2024 Bel was Associate Director of The Big House, an award-winning company using theatre and film to transform the lives of care leavers, directing Hansel and Gretel and CashMoney Now there and later the short film Duvet. Bel now freelance directs, and manages the ViBrent programme for Punchdrunk Enrichment.</p><p>She holds a first-class degree in Arabic from SOAS, and speaks English, French, Arabic and Spanish.</p>",
+ "statement": "<p>The weird, the surprising and the wonderful: they’re what excite me. I look for magic. I aim to nurture playfulness and curiosity in myself and those around me.</p><p>A proud jack of all trades. I love bringing together seemingly disparate interests and ideas to make something cohesive and beautiful.</p><p>I love words, languages – love thinking about them. Equally, LOVE finding the drama without/before/between them.</p>",
+ "pairs": ["Firmness + flexibility", "Precision + possibility", "Intentional + accidental"],
+ "latest": [
+  {"text": "Adding Up America at Assembly Roxy, Edinburgh Fringe", "project": "adding-up-america", "year": "2026"},
+  {"text": "W*NKERS at Brighton Fringe", "project": "wnkers", "year": "2026"},
+  {"text": "Duvet on the festival circuit", "project": "duvet", "year": "2026"},
+  {"text": "ViBrent programme manager, Punchdrunk Enrichment", "project": "", "year": "2025 to now"}
+ ]
+},
+
+"contact": {"intro": "For directing, collaborations and workshops:"},
+
+"theatre": {
+ "assisting_heading": "Associate and assistant directing",
+ "assisting": [
+  {"title": "Redemption Reloaded", "text": "Associate director, 2022, and assistant director, 2021. By James Meteyard, directed by Maggie Norris, The Big House. A powerful play with music exploring family and forgiveness."},
+  {"title": "Mission", "text": "Assistant director, 2022. By David Watson, directed by Maggie Norris. An Offie-nominated play about making amends, and trying to journey to a whole new world."},
+  {"title": "The Ballad of Corona V", "text": "Assistant director, 2021. By David Watson, directed by Maggie Norris, The Big House. A free-wheeling, angry, moving and musical response to Covid, all at a two-metre distance."}
+ ]
+},
+
+"etcetera": {
+ "heading": "ETCETERA…",
+ "intro": "Facilitation, translation, writing and programming.",
+ "sections": [
+  {"title": "Workshops and facilitation", "image": "", "image_alt": "", "intro": "",
+   "items": [{"title": "Music and Drama Expo", "text": "2023", "link": ""}, {"title": "Team building, public speaking and empathy", "text": "Workshops", "link": ""}], "links": []},
+  {"title": "Translation", "image": "", "image_alt": "", "intro": "Translation assistance on _Men Don’t Cry_ by Faïza Guène, translated by Sarah Ardizzone for Cassava Republic.",
+   "items": [{"title": "Winner of the 2023 Scott Moncrieff Prize", "text": "Working on the French and Algerian Arabic.", "link": ""}],
+   "links": [{"label": "The Guardian’s review", "url": "https://www.theguardian.com/books/2021/aug/01/men-dont-cry-by-faiza-guene-review-witty-novel-of-everyday-french-life"}, {"label": "The book at Cassava Republic", "url": "https://cassavarepublic.biz/product/men-dont-cry/"}]},
+  {"title": "Publications", "image": "", "image_alt": "", "intro": "",
+   "items": [{"title": "The Butcher’s Assistant: a true story set in Alexandria", "text": "Essay, The Markaz Review, July 2024. On working as a butcher’s apprentice in Kom el-Dika while studying Arabic.", "link": "https://themarkaz.org/the-butchers-assistant-a-true-story-set-in-alexandria/"}, {"title": "The Small Clay Plate: a Siwa folk tale", "text": "Fiction, The Markaz Review, December 2024. A tale first heard around a campfire in the Siwa desert.", "link": "https://themarkaz.org/the-small-clay-plate-a-siwa-folk-tale/"}], "links": []},
+  {"title": "Events programming", "image": "", "image_alt": "", "intro": "As part of ViBrent: building relationships, conceiving of a programme, administrating, delivering and hosting the event.",
+   "items": [{"title": "Fundraising", "text": "", "link": ""}, {"title": "Freelancers’ Marketplace", "text": "", "link": ""}, {"title": "The Climate Emergency: What Role Can the Arts Play?", "text": "", "link": ""}], "links": []}
+ ]
+},
+
+"projects": [
+ {"id": "hansel-and-gretel", "section": "theatre", "title": "Hansel and Gretel", "role": "Director and dramaturg", "year": "2024",
+  "card_image": "img/hg.jpg", "card_meta": ["Director", "The Big House, 2024"], "card_text": "A promenade, site-specific performance about need, greed and growing up.",
+  "hero_image": "img/hg.jpg", "hero_alt": "Hansel and Gretel at The Big House", "hero_style": "full",
+  "intro_heading": "About the production",
+  "lede": "A promenade, site-specific retelling of the fairy tale: a story of need, greed and growing up.",
+  "body": "<p>Written by Josh Azouz for The Big House, this production followed two abandoned children through a starving land and into the woods.</p>",
+  "passage": "<p><em>Once upon a time.</em> The land was rotting and the people were hungry.</p><p><em>Once upon a time.</em> The woodcutter and his wife were so very hungry that they couldn’t feed their children, Hansel and Gretel.</p><p><em>Once upon a time.</em> Hansel and Gretel were abandoned in the woods.</p>",
+  "body_after": "<p>Set in the murky rooms of a disused frame factory, this retelling was tough and wild, funny and shocking.</p>",
+  "todo": "Director’s approach: copy to come.\nPress: one or two short review quotations.",
+  "facts_heading": "The production", "facts": [{"label": "Company", "value": "The Big House"}, {"label": "Venue", "value": "The Big House"}, {"label": "Run", "value": "November to December 2024"}],
+  "credits_heading": "Creative team", "credits": [{"label": "Director", "value": "Bel Parker"}, {"label": "Writer", "value": "Josh Azouz"}, {"label": "Set designer", "value": "Hannah Ursula"}, {"label": "Lighting designer", "value": "Shane Gill"}, {"label": "Sound designer", "value": "Esther Ajayi"}, {"label": "Costume designer", "value": "Roxanne Roberts"}, {"label": "Choreography", "value": "Jahia Sanches and Jessica O’Donovan"}, {"label": "Producer", "value": "Joly Black"}, {"label": "Assistant director", "value": "Jessica O’Donovan"}, {"label": "Production manager", "value": "Brent Tan"}, {"label": "Stage manager", "value": "Lauren Wedgeworth"}],
+  "galleries": [{"heading": "Production photographs", "layout": "carousel", "images": ["img/hg99.jpg", "img/hg35.jpg", "img/hg118.jpg", "img/hg45.jpg", "img/hg204.jpg", "img/hg349.jpg"], "caption": "Photography: credit to confirm", "alt": "production photograph"}]},
+
+ {"id": "adding-up-america", "section": "theatre", "title": "Adding Up America", "role": "Director", "year": "2026",
+  "card_image": "img/aua1.jpg", "card_meta": ["Director", "Edinburgh Fringe, 2026"], "card_text": "Monique DeBose’s solo show about mixed-race identity in America, with original jazz-inspired songs.",
+  "hero_image": "img/aua1.jpg", "hero_alt": "Adding Up America at Assembly Roxy", "hero_style": "full",
+  "intro_heading": "About the production",
+  "lede": "Monique DeBose’s solo show about mixed-race identity in America, told through story, original jazz-inspired songs and the logic of mathematical equations.",
+  "body": "<p>Drawing on her own life, DeBose asks what happens when an identity can’t be neatly solved. After Los Angeles and New York, the show made its UK debut at Assembly Roxy for the 2026 Edinburgh Fringe, with Bel directing.</p>",
+  "press_heading": "Audience reviews", "press": [],
+  "todo": "Audience reviews: add the quotations from the review screenshots.",
+  "links": [{"label": "addingupamerica.com", "url": "https://www.addingupamerica.com/"}],
+  "facts_heading": "The production", "facts": [{"label": "Full title", "value": "Adding Up America: Solving the Race Equation"}, {"label": "Venue", "value": "Assembly Roxy, Edinburgh"}, {"label": "Run", "value": "August 2026"}],
+  "credits_heading": "Creative team", "credits": [{"label": "Director", "value": "Bel Parker"}, {"label": "Writer and performer", "value": "Monique DeBose"}],
+  "galleries": [{"heading": "Production photographs", "layout": "carousel", "images": ["img/aua2.jpg", "img/aua3.jpg", "img/aua4.jpg", "img/aua5.jpg", "img/aua6.jpg", "img/aua7.jpg"], "caption": "Photography: Alex Brenner", "alt": "production photograph"}]},
+
+ {"id": "wnkers", "section": "theatre", "title": "W*NKERS", "role": "Co-creator and performer", "year": "2019 to now",
+  "card_image": "img/wk.jpg", "card_meta": ["Co-creator and performer", "2019 to now"], "card_text": "Raucous queer female jesters, from Theatre Deli to the Edinburgh and Brighton Fringes.",
+  "hero_image": "img/wk1.jpg", "hero_alt": "W*NKERS in performance", "hero_style": "full",
+  "intro_heading": "About the company",
+  "lede": "Two queer joculatrixes spitting venom.",
+  "body": "<p>Since 2019, Bel and Jordana Belaiche have written, produced and performed W*NKERS together: bawdy, musical, audience-baiting comedy built on clown, with Bel as House White and Jordana as House Red. They have played FEMFEST at Theatre Deli, the Edinburgh Fringe, Chavenage House, Bread and Roses and The Divine.</p><p>Their 2026 run at Brighton Fringe, directed by Cecily Nash, moved through the turning year and the stages of a life, from May Day and Morris dancing to dating, weddings and death.</p>",
+  "press_heading": "Press", "press": [{"quote": "Bel Parker has a fierce energy on-stage that it’s hard to look away from.", "source": "The Reviews Hub, Brighton Fringe 2026", "stars": 0}, {"quote": "An excellent calling card for their bawdy, chaotic talents.", "source": "Chortle, Brighton Fringe 2026", "stars": 0}],
+  "callouts": [{"heading": "The Bank Holiday game", "text": "W*NKERS: Spring Fling, a game on itch.io.", "label": "Play the game", "url": "https://w4nkersknow.itch.io/wnkers-spring-fling"}],
+  "links": [{"label": "W*NKERS on YouTube", "url": "https://www.youtube.com/channel/UCzDdNYRvV40AqCgJN7oDvSw"}, {"label": "Instagram @w4nkersknow", "url": "https://www.instagram.com/w4nkersknow/"}],
+  "facts_heading": "The company", "facts": [{"label": "With", "value": "Jordana Belaiche"}, {"label": "Since", "value": "2019"}, {"label": "Latest", "value": "Brighton Fringe 2026"}],
+  "credits_heading": "Credits", "credits": [{"label": "Created and performed by", "value": "Jordana Belaiche and Bel Parker"}, {"label": "Director, 2026", "value": "Cecily Nash"}],
+  "galleries": [{"heading": "Photographs", "layout": "carousel", "images": ["img/wk2.jpg", "img/wk3.jpg", "img/wk4.jpg", "img/wk5.jpg", "img/wk.jpg"], "caption": "Photography: credits to confirm", "alt": "photograph"}]},
+
+ {"id": "summoning-sondheim", "section": "theatre", "title": "Summoning Sondheim", "role": "Director", "year": "2024–25",
+  "card_image": "img/ss1.jpg", "card_meta": ["Director", "London, Edinburgh, New York, 2024–25"], "card_text": "A comedy musical séance to summon the lyricist Stephen Sondheim.",
+  "hero_image": "img/ss1.jpg", "hero_alt": "Summoning Sondheim in performance", "hero_style": "full",
+  "intro_heading": "About the production",
+  "lede": "A comedy musical séance to summon Stephen Sondheim, and save musical theatre (and therefore the world).",
+  "body": "<p>Written by and starring Grace O’Keefe and Jordana Belaiche, the show has played New Wimbledon Theatre, Just the Tonic at the Edinburgh Fringe, Seven Dials Playhouse in the West End, the VAULTS and 54 Below in New York.</p>",
+  "press_heading": "Press", "press": [{"quote": "A must see", "source": "London Theatre Reviews", "stars": 5}, {"quote": "Very entertaining… very funny", "source": "The Scotsman", "stars": 4}, {"quote": "A true love letter to Sondheim", "source": "Broadway Baby", "stars": 4}],
+  "video": "z42MTmEpbq8",
+  "facts_heading": "The production", "facts": [{"label": "Cities", "value": "London, Edinburgh, New York"}, {"label": "Run", "value": "2024 to 2025"}],
+  "credits_heading": "Creative team", "credits": [{"label": "Director", "value": "Bel Parker"}, {"label": "Writers and performers", "value": "Grace O’Keefe and Jordana Belaiche"}],
+  "galleries": [{"heading": "Production photographs", "layout": "carousel", "images": ["img/ss2.jpg", "img/ss3.jpg", "img/ss4.jpg", "img/ss5.jpg", "img/ss6.jpg"], "caption": "Photography includes work by Pedro Porto Rovino. Other credits to confirm.", "alt": "production photograph"}]},
+
+ {"id": "cashmoney-now", "section": "theatre", "title": "CashMoney Now", "role": "Director", "year": "2022",
+  "card_image": "img/cm1.jpg", "card_meta": ["Director", "The Big House, 2022"], "card_text": "A breakneck tale of con artists, hackers, sugar daddies and crypto bros.",
+  "hero_image": "img/cm1.jpg", "hero_alt": "CashMoney Now at The Big House", "hero_style": "full",
+  "intro_heading": "About the production",
+  "lede": "A breakneck tale of con artists, hackers, sugar daddies and crypto bros.",
+  "body": "<p>When her little sister loses everything to an online scam, Anna goes after the scammer, deep into the murkiest corners of the internet, where revenge comes with the chance of the heist of a lifetime.</p><p>Bel developed the script with writer James Fritz and directed the production for The Big House, where she was Associate Director.</p>",
+  "press_heading": "Press", "press": [{"quote": "An original, well-written, well-acted and hilarious production.", "source": "Nicole V Sylvester, Afridiziak Theatre News", "stars": 5}],
+  "todo": "The rest of the creative team, if you’d like them listed.",
+  "facts_heading": "The production", "facts": [{"label": "Company", "value": "The Big House"}, {"label": "Venue", "value": "The Big House, Islington"}, {"label": "Run", "value": "November to December 2022"}],
+  "credits_heading": "Creative team", "credits": [{"label": "Director", "value": "Bel Parker"}, {"label": "Writer", "value": "James Fritz"}],
+  "galleries": [{"heading": "Production photographs", "layout": "carousel", "images": ["img/cm2.jpg", "img/cm3.jpg", "img/cm4.jpg", "img/cm5.jpg"], "caption": "Photography: credit to confirm", "alt": "production photograph"}]},
+
+ {"id": "duvet", "section": "film", "title": "Duvet", "role": "Director", "year": "2025",
+  "card_image": "img/ds21.jpg", "card_meta": ["Director", "Short film, 2025"], "card_text": "A surreal horror short about coercive control. Official selection, Aesthetica Film Festival 2026.",
+  "hero_image": "img/dvKey.jpg", "hero_alt": "Duvet key art", "hero_style": "letterbox",
+  "laurels": [{"image": "img/lAe.png", "alt": "Official selection, Aesthetica Film Festival 2026"}, {"image": "img/lPh.png", "alt": "Finalist, Phantasmagoria Horror Film Festival 2026"}, {"image": "img/lLb.png", "alt": "Official selection, London Breeze Film Festival 2026"}, {"image": "img/lSs.png", "alt": "Official selection, Super Shorts Hackney 2026"}, {"image": "img/lLa.png", "alt": "Official nominee, London Art Film Awards 2026"}, {"image": "img/lHr.png", "alt": "Nominee, Hastings Rocks International Film Festival 2026"}],
+  "intro_heading": "Synopsis",
+  "lede": "Duvet follows a young woman struggling to leave a coercive relationship. When the source of her comfort becomes a terrible adversary, she finds herself trapped in a desperate battle for freedom.",
+  "body": "<p>Blending puppetry, comedy and horror, Duvet is an offbeat psychological drama exploring isolation and resilience.</p>",
+  "role_heading": "My role",
+  "role_text": "<p>Bel developed Duvet with writer James Fritz after growing concerns about the prevalence of coercive relationships affecting the charity’s members. Bel directed the film, led filmmaking workshops for the company’s under-18 members during development, then crowdfunded the festival campaign on Greenlit, and ran the subsequent campaign with associate producer Tabitha Boyd.</p>",
+  "quote": {"text": "The Duvet allows us to get deep into our protagonist’s story, her struggle and her strength, quickly, with wit, and without having to see direct violence.", "by": "Bel Parker"},
+  "watch": "Duvet is on the festival circuit. Industry viewing links are available on request.",
+  "facts_heading": "The film", "facts": [{"label": "Running time", "value": "c. 14 min"}, {"label": "Genre", "value": "Horror"}, {"label": "Produced by", "value": "The Big House"}],
+  "credits_heading": "Cast and crew", "credits": [{"label": "Director", "value": "Bel Parker"}, {"label": "Writer", "value": "James Fritz"}, {"label": "Woman", "value": "Tee Odom"}, {"label": "Man", "value": "Omar Bourgess"}, {"label": "The Duvet", "value": "Joshua Kwan, Creature Bionics"}, {"label": "Producer", "value": "Abigail Coniah"}, {"label": "Executive producers", "value": "Sychelle-Kristina Yanda, Molly Rutherford"}, {"label": "Associate producer", "value": "Tabitha Boyd"}, {"label": "Cinematography", "value": "Ben Saffer"}, {"label": "Production design and puppet", "value": "Rosalind Gregoire"}, {"label": "Editor", "value": "Frederik Ribergaard"}, {"label": "Composer", "value": "Vanessa Fitchett"}, {"label": "Sound design", "value": "Luke Kulukundis"}, {"label": "Post-production", "value": "Disauthority"}],
+  "galleries": [{"heading": "Stills", "layout": "sheet", "images": ["img/t1.jpg", "img/t4.jpg", "img/t9.jpg", "img/t14.jpg", "img/ds6.jpg", "img/ds17.jpg", "img/ds21.jpg", "img/ds37.jpg"], "caption": "", "alt": "still"},
+   {"heading": "Behind the scenes", "layout": "carousel", "images": ["img/bts135.jpg", "img/bts72.jpg", "img/p1.jpg", "img/bts3.jpg", "img/bts26.jpg", "img/bts112.jpg"], "caption": "Photography: Juan Camilo Suarez, Zehn Studio", "alt": "behind the scenes"}]},
+
+ {"id": "under-the-blanket", "section": "film", "title": "Under the Blanket", "role": "Director", "year": "2024",
+  "card_image": "img/utb28.jpg", "card_meta": ["Director", "Short film, 2024"], "card_text": "A half-animation, half-live-action short about a teenager stuck in bed.",
+  "hero_image": "img/utb33.jpg", "hero_alt": "On the set of Under the Blanket", "hero_style": "letterbox",
+  "intro_heading": "Synopsis",
+  "lede": "A half-animation, half-live-action short about a teenager stuck in bed.",
+  "body": "<p>Written by Hannah Shury-Smith and produced by YCT Productions and The Big House, Under the Blanket was Bel’s first short film.</p>",
+  "todo": "A fuller synopsis, running time, any festival selections and the full credits.",
+  "facts_heading": "The film", "facts": [{"label": "Format", "value": "Live action and animation"}, {"label": "Produced by", "value": "YCT Productions and The Big House"}],
+  "credits_heading": "Credits", "credits": [{"label": "Director", "value": "Bel Parker"}, {"label": "Writer", "value": "Hannah Shury-Smith"}],
+  "galleries": [{"heading": "On set", "layout": "carousel", "images": ["img/utb28.jpg", "img/utb51.jpg", "img/utb59.jpg", "img/utb74.jpg"], "caption": "Photography: credit to confirm", "alt": "on set"}]},
+
+ {"id": "bellyfull-kitchen", "section": "film", "title": "Bellyfull Kitchen", "role": "Writer and director", "year": "2023",
+  "card_image": "", "card_meta": ["Writer and director", "The Big Mouth, 2023"], "card_text": "A comedy cooking series.",
+  "hero_image": "", "hero_style": "none",
+  "intro_heading": "About the series",
+  "lede": "A comedy cooking series, written and directed by Bel for The Big Mouth.",
+  "todo": "Stills, an episode link and a line or two about the series.",
+  "facts_heading": "The series", "facts": [{"label": "Format", "value": "Comedy cooking series"}, {"label": "For", "value": "The Big Mouth"}],
+  "credits_heading": "Credits", "credits": [{"label": "Writer and director", "value": "Bel Parker"}]}
+]
+};
