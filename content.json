@@ -191,7 +191,7 @@
       },
       "card_fit": "crop",
       "card_meta": [
-        "Director",
+        "Director and dramaturg",
         "The Big House, 2024"
       ],
       "card_text": "A promenade, site-specific performance about need, greed and growing up.",
@@ -414,20 +414,20 @@
       "card_fit": "crop",
       "card_meta": [
         "Co-creator and performer",
-        "2019 to now"
+        "2020 to now"
       ],
-      "card_text": "Raucous queer female jesters, from Theatre Deli to the Edinburgh and Brighton Fringes.",
+      "card_text": "Raucous queer female jesters.",
       "hero_image": "img/wk1.jpg",
       "hero_crop": {
         "x": 50,
         "y": 50,
         "zoom": 100
       },
-      "hero_alt": "W*NKERS in performance",
+      "hero_alt": "W*NKERS performing 'The Damned' at Reference Point",
       "hero_style": "full",
       "intro_heading": "About the company",
       "lede": "Two queer joculatrixes spitting venom.",
-      "body": "<p>Since 2019, Bel and Jordana Belaiche have written, produced and performed W*NKERS together: bawdy, musical, audience-baiting comedy built on clown, with Bel as House White and Jordana as House Red. They have played FEMFEST at Theatre Deli, the Edinburgh Fringe, Chavenage House, Bread and Roses and The Divine.</p><p>Their 2026 run at Brighton Fringe, directed by Cecily Nash, moved through the turning year and the stages of a life, from May Day and Morris dancing to dating, weddings and death.</p>",
+      "body": "<p>Since 2020, Bel and Jordana Belaiche have written, produced and performed W*NKERS together: bawdy, musical, audience-baiting comedy built on clown, with Bel as House White and Jordana as House Red. They have played FEMFEST at Theatre Deli, the Edinburgh Fringe, Chavenage House, Bread and Roses and The Divine.</p><p>Their 2026 run at Brighton Fringe, directed by Cecily Nash, moved through the turning year and the stages of a life, from May Day and Morris dancing to dating, weddings and death.</p>",
       "passage": "<p></p>",
       "body_after": "<p></p>",
       "role_text": "<p></p>",
