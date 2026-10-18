@@ -1,0 +1,445 @@
+# Pages CMS settings for Bel Parker's website.
+# When Pages CMS asks you to create ".pages.yml", paste ALL of this in and save.
+
+media:
+  - name: images
+    label: Images
+    input: img
+    output: img
+    rename: safe
+    categories: [image]
+  - name: files
+    label: Documents
+    input: files
+    output: files
+    rename: safe
+    categories: [document]
+
+settings:
+  content:
+    merge: true
+
+content:
+  - name: website
+    label: Website
+    type: file
+    path: content.json
+    format: json
+    fields:
+
+      - name: home
+        label: Homepage
+        type: object
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: tagline
+            label: Line under the name
+            type: string
+          - name: intro
+            label: Introduction
+            type: text
+          - name: image
+            label: Photograph
+            type: image
+            options:
+              media: images
+          - name: image_alt
+            label: Photograph description (read aloud to blind visitors)
+            type: string
+          - name: selected
+            label: Selected work
+            description: Page addresses of the projects to show, in order (for example hansel-and-gretel). Each needs a card image.
+            type: string
+            list: true
+
+      - name: about
+        label: About
+        type: object
+        fields:
+          - name: image
+            label: Photograph
+            type: image
+            options:
+              media: images
+          - name: image_alt
+            label: Photograph description
+            type: string
+          - name: lines
+            label: Opening lines
+            type: string
+            list: true
+          - name: bio
+            label: Biography
+            type: rich-text
+            options:
+              format: html
+              media: false
+          - name: statement
+            label: Statement
+            type: rich-text
+            options:
+              format: html
+              media: false
+          - name: pairs
+            label: Statement pairs
+            type: string
+            list: true
+          - name: latest
+            label: Latest work
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{text}"
+            fields:
+              - name: text
+                label: Text
+                type: string
+              - name: project
+                label: Links to project (page address, optional)
+                type: string
+              - name: year
+                label: Year
+                type: string
+
+      - name: contact
+        label: Contact section
+        type: object
+        fields:
+          - name: intro
+            label: Line above the email address
+            type: string
+
+      - name: settings
+        label: Contact details and settings
+        type: object
+        fields:
+          - name: email
+            label: Email
+            type: string
+          - name: instagram
+            label: Instagram handle (without the @)
+            type: string
+          - name: cv
+            label: CV (PDF)
+            type: file
+            options:
+              media: files
+              extensions: [pdf]
+          - name: show_placeholders
+            label: Show "To supply" notes
+            description: Turn this off before launch to hide every unfinished note.
+            type: boolean
+
+      - name: projects
+        label: Projects
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title} ({section})"
+        fields:
+          - name: id
+            label: Page address
+            description: Lowercase words joined by hyphens, for example hansel-and-gretel.
+            type: string
+            required: true
+            pattern: "^[a-z0-9-]+$"
+          - name: section
+            label: Section
+            type: select
+            options:
+              values: [theatre, film]
+          - name: title
+            label: Title
+            type: string
+          - name: role
+            label: Your role
+            type: string
+          - name: year
+            label: Year
+            type: string
+          - name: card_image
+            label: Card image (Theatre/Film pages and homepage)
+            type: image
+            options:
+              media: images
+          - name: card_meta
+            label: Card details (short lines, for example role and year)
+            type: string
+            list: true
+          - name: card_text
+            label: Card description
+            type: text
+          - name: hero_image
+            label: Main image
+            type: image
+            options:
+              media: images
+          - name: hero_alt
+            label: Main image description
+            type: string
+          - name: hero_style
+            label: Main image style
+            description: full = tall full-width image, letterbox = wide cinema shape, none = no main image
+            type: select
+            options:
+              values: [full, letterbox, none]
+          - name: laurels
+            label: Festival laurels
+            type: object
+            list: true
+            fields:
+              - name: image
+                label: Laurel image
+                type: image
+                options:
+                  media: images
+              - name: alt
+                label: Description (for example Official selection, Aesthetica Film Festival 2026)
+                type: string
+          - name: intro_heading
+            label: First heading
+            type: string
+          - name: lede
+            label: Opening line
+            description: Wrap words in _underscores_ to make them italic.
+            type: text
+          - name: body
+            label: Main text
+            type: rich-text
+            options:
+              format: html
+              media: false
+          - name: passage
+            label: Indented passage (optional)
+            type: rich-text
+            options:
+              format: html
+              media: false
+          - name: body_after
+            label: Text after the indented passage (optional)
+            type: rich-text
+            options:
+              format: html
+              media: false
+          - name: role_heading
+            label: Role heading (optional)
+            type: string
+          - name: role_text
+            label: Role text (optional)
+            type: rich-text
+            options:
+              format: html
+              media: false
+          - name: quote
+            label: Your quote (optional)
+            type: object
+            fields:
+              - name: text
+                label: Quote
+                type: text
+              - name: by
+                label: Said by
+                type: string
+          - name: press_heading
+            label: Reviews heading (for example Press or Audience reviews)
+            type: string
+          - name: press
+            label: Reviews
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{source}"
+            fields:
+              - name: quote
+                label: Quote
+                type: text
+              - name: source
+                label: Source
+                type: string
+              - name: stars
+                label: Stars (0 for none)
+                type: number
+                options:
+                  min: 0
+                  max: 5
+          - name: callouts
+            label: Highlight boxes (for example a game or a booking link)
+            type: object
+            list: true
+            fields:
+              - name: heading
+                label: Heading
+                type: string
+              - name: text
+                label: Text
+                type: text
+              - name: label
+                label: Button label
+                type: string
+              - name: url
+                label: Button link
+                type: string
+          - name: watch
+            label: Viewing link request (films only, optional)
+            type: text
+          - name: video
+            label: YouTube video link (optional)
+            type: string
+          - name: links
+            label: Links
+            type: object
+            list: true
+            fields:
+              - name: label
+                label: Label
+                type: string
+              - name: url
+                label: Link
+                type: string
+          - name: todo
+            label: Notes still to supply (one per line, hidden when placeholders are off)
+            type: text
+          - name: facts_heading
+            label: Facts heading
+            type: string
+          - name: facts
+            label: Facts
+            type: object
+            list: true
+            fields:
+              - name: label
+                label: Label
+                type: string
+              - name: value
+                label: Value
+                type: string
+          - name: credits_heading
+            label: Credits heading
+            type: string
+          - name: credits
+            label: Credits
+            type: object
+            list: true
+            fields:
+              - name: label
+                label: Role
+                type: string
+              - name: value
+                label: Name
+                type: string
+          - name: galleries
+            label: Galleries
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{heading}"
+            fields:
+              - name: heading
+                label: Heading
+                type: string
+              - name: layout
+                label: Layout
+                description: carousel = one big image at a time, sheet = a grid of small images
+                type: select
+                options:
+                  values: [carousel, sheet]
+              - name: images
+                label: Images
+                type: image
+                options:
+                  media: images
+                  multiple:
+                    max: 40
+              - name: caption
+                label: Caption (for example photographer credit)
+                type: string
+              - name: alt
+                label: What the images show (for example production photograph)
+                type: string
+
+      - name: theatre
+        label: Theatre page
+        type: object
+        fields:
+          - name: assisting_heading
+            label: Heading for the list under the projects
+            type: string
+          - name: assisting
+            label: List under the projects
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - name: title
+                label: Title
+                type: string
+              - name: text
+                label: Details
+                type: text
+
+      - name: etcetera
+        label: Etcetera page
+        type: object
+        fields:
+          - name: heading
+            label: Page heading
+            type: string
+          - name: intro
+            label: Introduction
+            type: text
+          - name: sections
+            label: Sections
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - name: title
+                label: Section title
+                type: string
+              - name: image
+                label: Image
+                type: image
+                options:
+                  media: images
+              - name: image_alt
+                label: Image description
+                type: string
+              - name: intro
+                label: Introduction
+                description: Wrap words in _underscores_ to make them italic.
+                type: text
+              - name: items
+                label: Items
+                type: object
+                list: true
+                fields:
+                  - name: title
+                    label: Title
+                    type: string
+                  - name: text
+                    label: Details
+                    type: string
+                  - name: link
+                    label: Link (optional)
+                    type: string
+              - name: links
+                label: Links
+                type: object
+                list: true
+                fields:
+                  - name: label
+                    label: Label
+                    type: string
+                  - name: url
+                    label: Link
+                    type: string
