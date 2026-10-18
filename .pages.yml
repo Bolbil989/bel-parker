@@ -1,5 +1,5 @@
-# Pages CMS settings for Bel Parker's website.
-# When Pages CMS asks you to create ".pages.yml", paste ALL of this in and save.
+# Pages CMS settings for Bel Parker's website (version 2: adds crop, focus and fit controls).
+# Replace the whole of .pages.yml with this.
 
 media:
   - name: images
@@ -18,6 +18,41 @@ media:
 settings:
   content:
     merge: true
+
+components:
+  crop:
+    type: object
+    label: Crop and focus
+    description: Moves the photo inside its frame without changing the frame.
+    fields:
+      - name: x
+        label: Focus across (0 = left edge, 50 = centre, 100 = right edge)
+        type: number
+        default: 50
+        options:
+          min: 0
+          max: 100
+      - name: y
+        label: Focus down (0 = top, 50 = centre, 100 = bottom)
+        type: number
+        default: 50
+        options:
+          min: 0
+          max: 100
+      - name: zoom
+        label: Zoom (100 = none, 120 = a fifth larger, crops more)
+        type: number
+        default: 100
+        options:
+          min: 100
+          max: 300
+  fit:
+    type: select
+    label: Fit
+    description: crop = fill the frame, whole = show the entire photo on black
+    default: crop
+    options:
+      values: [crop, whole]
 
 content:
   - name: website
@@ -48,6 +83,36 @@ content:
           - name: image_alt
             label: Photograph description (read aloud to blind visitors)
             type: string
+          - name: image_crop
+            label: Photograph crop and focus
+            description: Focus down 100 and zoom above 100 trim the top of the photo.
+            type: object
+            fields:
+              - name: x
+                label: Focus across (0 = left edge, 50 = centre, 100 = right edge)
+                type: number
+                default: 50
+                options:
+                  min: 0
+                  max: 100
+              - name: y
+                label: Focus down (0 = top, 50 = centre, 100 = bottom)
+                type: number
+                default: 100
+                options:
+                  min: 0
+                  max: 100
+              - name: zoom
+                label: Zoom (100 = none, 120 = a fifth larger, crops more)
+                type: number
+                default: 110
+                options:
+                  min: 100
+                  max: 300
+          - name: image_fade
+            label: Fade the top of the photograph into the background
+            type: boolean
+            default: false
           - name: selected
             label: Selected work
             description: Page addresses of the projects to show, in order (for example hansel-and-gretel). Each needs a card image.
@@ -59,7 +124,7 @@ content:
         type: object
         fields:
           - name: image
-            label: Photograph
+            label: Photograph (shown whole, never cropped)
             type: image
             options:
               media: images
@@ -166,6 +231,12 @@ content:
             type: image
             options:
               media: images
+          - name: card_crop
+            label: Card image crop and focus
+            component: crop
+          - name: card_fit
+            label: Card image fit
+            component: fit
           - name: card_meta
             label: Card details (short lines, for example role and year)
             type: string
@@ -178,6 +249,9 @@ content:
             type: image
             options:
               media: images
+          - name: hero_crop
+            label: Main image crop and focus
+            component: crop
           - name: hero_alt
             label: Main image description
             type: string
@@ -349,6 +423,9 @@ content:
                 type: select
                 options:
                   values: [carousel, sheet]
+              - name: fit
+                label: Image fit for this gallery
+                component: fit
               - name: images
                 label: Images
                 type: image
@@ -406,6 +483,10 @@ content:
               - name: title
                 label: Section title
                 type: string
+              - name: intro
+                label: Short introduction (left column)
+                description: Wrap words in _underscores_ to make them italic.
+                type: text
               - name: image
                 label: Image
                 type: image
@@ -414,20 +495,25 @@ content:
               - name: image_alt
                 label: Image description
                 type: string
-              - name: intro
-                label: Introduction
-                description: Wrap words in _underscores_ to make them italic.
-                type: text
+              - name: image_crop
+                label: Image crop and focus
+                component: crop
+              - name: image_fit
+                label: Image fit
+                component: fit
               - name: items
-                label: Items
+                label: Items (right column)
                 type: object
                 list: true
                 fields:
                   - name: title
                     label: Title
                     type: string
+                  - name: meta
+                    label: Details line (for example publisher and date)
+                    type: string
                   - name: text
-                    label: Details
+                    label: Description
                     type: string
                   - name: link
                     label: Link (optional)
