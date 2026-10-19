@@ -973,6 +973,7 @@
       "title": "Bellyfull Kitchen",
       "role": "Writer and director",
       "year": "2023",
+      "card_image": "img/bfk1.jpg",
       "card_crop": {
         "x": 50,
         "y": 50,
@@ -984,6 +985,7 @@
         "The Big Mouth, 2023"
       ],
       "card_text": "A comedy cooking series.",
+      "hero_image": "img/bfk1.jpg",
       "hero_crop": {
         "x": 50,
         "y": 50,
