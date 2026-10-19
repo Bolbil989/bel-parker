@@ -867,7 +867,7 @@
       "hero_style": "letterbox",
       "intro_heading": "Synopsis",
       "lede": "A half-animation, half-live-action short about a teenager stuck in bed. Co-created with care experienced young people under 18. ",
-      "body": "<p>It’s a story about getting out of bed and just how dramatic that fight can be.</p><p>Talia and Sasha are leaving school. Talia is paralysed at a cross-roads and we travel to her animated inner world: its beauties and its terrors. Can Sasha reach her in time? </p><p>Produced by YCT Productions and The Big House, this piece for developed with a group of care experienced young people, who were involved in is conception, writing, and filming process. </p>",
+      "body": "<p>It’s a story about getting out of bed and just how dramatic that fight can be.</p><p>Talia and Sasha are leaving school. Talia is paralysed at a cross-roads and we travel to her animated inner world: its beauties and its terrors. Can Sasha reach her in time?</p><p>Produced by YCT Productions and The Big House, this piece for developed with a group of care experienced young people, who were involved in is conception, writing, and filming process.</p>",
       "passage": "<p></p>",
       "body_after": "<p></p>",
       "role_heading": "Director and Facilitator",
@@ -960,7 +960,7 @@
       },
       "card_fit": "crop",
       "card_meta": [
-        "Writer and director",
+        "Writer, director and co-cinematographer",
         "The Big Mouth, 2023"
       ],
       "card_text": "A comedy cooking series.",
@@ -971,11 +971,19 @@
       },
       "hero_style": "none",
       "intro_heading": "About the series",
-      "lede": "A comedy cooking series, written and directed by Bel for The Big Mouth.",
-      "body": "<p></p>",
+      "lede": "\"Food means life. It means love, caring, family.\"",
+      "body": "<p>What does it mean to have your belly full?</p><p>A hot plate of food. A table of people you love come together. A little island, a pause from whatever is happening anywhere else. If family is fractured and life is full of tumult, sitting down to eat is not a given.</p><p>Bellyfull Kitchen is hosted by Chef Nae Nae, irresistibly honest and brilliantly funny. </p><p>In each episode of this five part series, she asks different people about food, cooking, and what it means to them. Heart warming, belly-filling, and side-splitting. </p>",
       "passage": "<p></p>",
       "body_after": "<p></p>",
       "role_text": "<p></p>",
+      "callouts": [
+        {
+          "heading": "Watch Now on Youtube",
+          "text": "5 episode available to watch now.",
+          "label": "To Episode 1",
+          "url": "https://www.youtube.com/watch?v=OjTuSpaynRk"
+        }
+      ],
       "todo": "Stills, an episode link and a line or two about the series.",
       "facts_heading": "The series",
       "facts": [
