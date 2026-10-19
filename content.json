@@ -73,11 +73,12 @@
     ]
   },
   "etcetera": {
-    "heading": "ETCETERA…",
-    "intro": "Facilitation, programming, writing and translation. ",
+    "heading": "ETCETERA",
+    "intro": "Some of the rest...",
     "sections": [
       {
         "title": "Workshops and facilitation",
+        "intro": "I'm an experienced facilitator for adults and young people, creating playful, joyful and inclusive rooms. ",
         "image_crop": {
           "x": 50,
           "y": 50,
@@ -87,11 +88,28 @@
         "items": [
           {
             "title": "Music and Drama Expo",
+            "meta": "Theatre and Supporting Young People",
             "text": "2023"
           },
           {
-            "title": "Team building, public speaking and empathy",
-            "text": "Workshops"
+            "title": "NHS Mental Health Services",
+            "meta": "Team Building ",
+            "text": "2022"
+          },
+          {
+            "title": "Team building, public speaking and empathy workshops.",
+            "meta": "Other example workshops",
+            "text": "For a range of participants in charitable, arts and corporate sectors."
+          },
+          {
+            "title": "5Day Film Club",
+            "meta": "2023",
+            "text": "Programming and facilitating a crash course in filmmaking for under 25s with Carlo Mole and Hayat Aljowaily "
+          },
+          {
+            "title": "The Library Series",
+            "meta": "2022",
+            "text": "Co-facilitating a writers room with Tobi King-Bakare with guest speakers (incl. debbie tucker green)"
           }
         ]
       },
@@ -994,7 +1012,7 @@
       "hero_style": "none",
       "intro_heading": "About the series",
       "lede": "\"Food means life. It means love, caring, family.\"",
-      "body": "<p>What does it mean to have your belly full?</p><p>A hot plate of food. A table of people you love come together. If family is fractured and life is full of tumult, sitting down to eat is not a given.</p><p>Bellyfull Kitchen is hosted by Chef Nae Nae, irresistibly honest and brilliantly funny.</p><p>In each episode of this five part series, she asks different people about food, cooking, and what it means to them. </p><p>Heart warming, belly-filling, and side-splitting.</p>",
+      "body": "<p>What does it mean to have your belly full?</p><p>A hot plate of food. A table of people you love come together. If family is fractured and life is full of tumult, sitting down to eat is not a given.</p><p>Bellyfull Kitchen is hosted by Chef Nae Nae, irresistibly honest and brilliantly funny.</p><p>In each episode of this five part series, she asks different people about food, cooking, and what it means to them.</p><p>Heart warming, belly-filling, and side-splitting.</p>",
       "passage": "<p></p>",
       "body_after": "<p></p>",
       "role_text": "<p></p>",
