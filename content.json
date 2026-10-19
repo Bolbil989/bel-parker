@@ -933,6 +933,21 @@
       ],
       "galleries": [
         {
+          "heading": "Stills",
+          "layout": "sheet",
+          "fit": "crop",
+          "images": [
+            "img/utb4.jpg",
+            "img/utb5.jpg",
+            "img/utb3.jpg",
+            "img/utb2.png",
+            "img/utb6.jpg",
+            "img/utb7.jpg",
+            "img/utb8.jpg",
+            "img/utb9.jpg"
+          ]
+        },
+        {
           "heading": "On set",
           "layout": "carousel",
           "fit": "crop",
@@ -949,21 +964,6 @@
           ],
           "caption": "BTS Photography: Ikram Ahmed",
           "alt": "on set"
-        },
-        {
-          "heading": "Stills",
-          "layout": "sheet",
-          "fit": "crop",
-          "images": [
-            "img/utb4.jpg",
-            "img/utb5.jpg",
-            "img/utb3.jpg",
-            "img/utb2.png",
-            "img/utb6.jpg",
-            "img/utb7.jpg",
-            "img/utb8.jpg",
-            "img/utb9.jpg"
-          ]
         }
       ]
     },
