@@ -393,7 +393,7 @@
       "section": "theatre",
       "title": "W*NKERS",
       "role": "Co-creator and performer",
-      "year": "2019 to now",
+      "year": "2020 to now",
       "card_image": "img/wk.jpg",
       "card_crop": {
         "x": 50,
@@ -416,21 +416,21 @@
       "hero_style": "full",
       "intro_heading": "About the company",
       "lede": "Two queer joculatrixes spitting venom.",
-      "body": "<p>Since 2020, Bel and Jordana Belaiche have written, produced and performed W*NKERS together: bawdy, musical, audience-baiting comedy built on clown, with Bel as House White and Jordana as House Red. They have played FEMFEST at Theatre Deli, the Edinburgh Fringe, Chavenage House, Bread and Roses and The Divine.</p><p>Their 2026 run at Brighton Fringe, directed by Cecily Nash, moved through the turning year and the stages of a life, from May Day and Morris dancing to dating, weddings and death.</p>",
+      "body": "<p>Since 2020, Bel and Jordana Belaiche have written, produced and performed W*NKERS together: a bawdy whiplash concoction of bouffon, drag, character and musical comedy. With Bel as House White and Jordana as House Red, they have played in fringe venues around the country, including PEN theatre, FEMFEST at Theatre Deli,  Brighton Fringe, Chavenage House, Bread and Roses and The Divine. </p><p>Their most recent escapade was <em>Seasons of W*nk</em>, directed by Cecily Nash. In sixteen months they created four hour-long shows that tracked the movements of the seasons ing <em>Spring Fling</em>, <em>Summer Bummer</em>, and <em>The Darkness</em>, before putting together a best-of <em>Seasons of W*nk</em> show that they took Brighton Fringe, to great response. </p><p>They are currently in post-production for their music video <em>Bank Holiday</em>, shot by Alice Elizabeth Harris, and produced at Snorkel Productions. </p>",
       "passage": "<p></p>",
       "body_after": "<p></p>",
       "role_text": "<p></p>",
       "press_heading": "Press",
       "press": [
         {
-          "quote": "Bel Parker has a fierce energy on-stage that it’s hard to look away from.",
+          "quote": "A surreal experiment in the art of being delightfully deranged... Bel Parker has a fierce energy on-stage that it’s hard to look away from.",
           "source": "The Reviews Hub, Brighton Fringe 2026",
-          "stars": 0
+          "stars": 5
         },
         {
           "quote": "An excellent calling card for their bawdy, chaotic talents.",
           "source": "Chortle, Brighton Fringe 2026",
-          "stars": 0
+          "stars": 4
         }
       ],
       "callouts": [
@@ -459,11 +459,11 @@
         },
         {
           "label": "Since",
-          "value": "2019"
+          "value": "2020"
         },
         {
           "label": "Latest",
-          "value": "Brighton Fringe 2026"
+          "value": "PEN Theatre 2026"
         }
       ],
       "credits_heading": "Credits",
@@ -473,7 +473,7 @@
           "value": "Jordana Belaiche and Bel Parker"
         },
         {
-          "label": "Director, 2026",
+          "label": "Director, 2025",
           "value": "Cecily Nash"
         }
       ],
