@@ -59,22 +59,22 @@
     "assisting_heading": "Associate and assistant directing",
     "assisting": [
       {
-        "title": "Redemption Reloaded",
-        "text": "Associate director, 2022, and assistant director, 2021. By James Meteyard, directed by Maggie Norris, The Big House. A powerful play with music exploring family and forgiveness."
+        "title": "Redemption and Redemption Reloaded",
+        "text": "Associate director, 2021 and 2022. By James Meteyard, directed by Maggie Norris. A powerful play with music exploring family and forgiveness."
       },
       {
         "title": "Mission",
-        "text": "Assistant director, 2022. By David Watson, directed by Maggie Norris. An Offie-nominated play about making amends, and trying to journey to a whole new world."
+        "text": "Associate director,, 2022. By David Watson, directed by Maggie Norris. An Offie-nominated play about making amends, and trying to journey to a whole new world."
       },
       {
         "title": "The Ballad of Corona V",
-        "text": "Assistant director, 2021. By David Watson, directed by Maggie Norris, The Big House. A free-wheeling, angry, moving and musical response to Covid, all at a two-metre distance."
+        "text": "Assistant director, 2021. By David Watson, directed by Maggie Norris. A free-wheeling, angry, moving and musical response to Covid, all at a two-metre distance."
       }
     ]
   },
   "etcetera": {
     "heading": "ETCETERA…",
-    "intro": "Facilitation, translation, writing and programming.",
+    "intro": "Facilitation, programming, writing and translation. ",
     "sections": [
       {
         "title": "Workshops and facilitation",
@@ -92,6 +92,27 @@
           {
             "title": "Team building, public speaking and empathy",
             "text": "Workshops"
+          }
+        ]
+      },
+      {
+        "title": "Events programming",
+        "intro": "As part of ViBrent: building relationships, conceiving of a programme, administrating, delivering and hosting the event.",
+        "image_crop": {
+          "x": 50,
+          "y": 50,
+          "zoom": 100
+        },
+        "image_fit": "crop",
+        "items": [
+          {
+            "title": "Fundraising"
+          },
+          {
+            "title": "Freelancers’ Marketplace"
+          },
+          {
+            "title": "The Climate Emergency: What Role Can the Arts Play?"
           }
         ]
       },
@@ -139,27 +160,6 @@
             "title": "The Small Clay Plate: a Siwa folk tale",
             "text": "Fiction, The Markaz Review, December 2024. A tale first heard around a campfire in the Siwa desert.",
             "link": "https://themarkaz.org/the-small-clay-plate-a-siwa-folk-tale/"
-          }
-        ]
-      },
-      {
-        "title": "Events programming",
-        "intro": "As part of ViBrent: building relationships, conceiving of a programme, administrating, delivering and hosting the event.",
-        "image_crop": {
-          "x": 50,
-          "y": 50,
-          "zoom": 100
-        },
-        "image_fit": "crop",
-        "items": [
-          {
-            "title": "Fundraising"
-          },
-          {
-            "title": "Freelancers’ Marketplace"
-          },
-          {
-            "title": "The Climate Emergency: What Role Can the Arts Play?"
           }
         ]
       }
@@ -972,7 +972,7 @@
       "hero_style": "none",
       "intro_heading": "About the series",
       "lede": "\"Food means life. It means love, caring, family.\"",
-      "body": "<p>What does it mean to have your belly full?</p><p>A hot plate of food. A table of people you love come together. A little island, a pause from whatever is happening anywhere else. If family is fractured and life is full of tumult, sitting down to eat is not a given.</p><p>Bellyfull Kitchen is hosted by Chef Nae Nae, irresistibly honest and brilliantly funny. </p><p>In each episode of this five part series, she asks different people about food, cooking, and what it means to them. Heart warming, belly-filling, and side-splitting. </p>",
+      "body": "<p>What does it mean to have your belly full?</p><p>A hot plate of food. A table of people you love come together. A little island, a pause from whatever is happening anywhere else. If family is fractured and life is full of tumult, sitting down to eat is not a given.</p><p>Bellyfull Kitchen is hosted by Chef Nae Nae, irresistibly honest and brilliantly funny.</p><p>In each episode of this five part series, she asks different people about food, cooking, and what it means to them. Heart warming, belly-filling, and side-splitting.</p>",
       "passage": "<p></p>",
       "body_after": "<p></p>",
       "role_text": "<p></p>",
