@@ -136,6 +136,7 @@
       },
       {
         "title": "Translation",
+        "image": "img/men-dont-cry.jpg",
         "image_crop": {
           "x": 50,
           "y": 50,
@@ -163,6 +164,8 @@
       },
       {
         "title": "Publications",
+        "image": "img/5metakingtwochickensoutofthebigblackbucket.jpg",
+        "image_alt": "In Hatem's butcher shop",
         "image_crop": {
           "x": 50,
           "y": 50,
