@@ -28,38 +28,27 @@
   "about": {
     "image": "img/p1.jpg",
     "image_alt": "Bel Parker with lead actor Tee Odom behind the scenes on Duvet",
-    "lines": [
-      "A promenade fairy tale.",
-      "A horror film with a duvet.",
-      "A musical séance for Stephen Sondheim.",
-      "Two queer joculatrixes spitting venom."
-    ],
     "bio": "<p>Bel Parker trained in physical theatre, mask and movement at L’École Internationale de Théâtre Jacques Lecoq in Paris, and then in clown and bouffon with Philippe Gaulier.</p><p>From 2021 to 2024 Bel was Associate Director of The Big House, an award-winning company using theatre and film to transform the lives of care leavers, directing <em>Hansel and Gretel </em>and <em>CashMoney Now </em>there and later the short film <em>Duvet</em>. Bel now freelance directs, while managing the ViBrent programme for Punchdrunk Enrichment.</p><p>She holds a first-class degree in Arabic from SOAS, and speaks English, French, Arabic and Spanish.</p>",
-    "statement": "<p>The weird, the surprising and the magical: they’re what excite me. I look for them. I aim to nurture them in myself and those around me, as well as playfulness and curiosity.</p><p>A proud jack of all trades. I love bringing together seemingly disparate things to make something cohesive and beautiful. </p><p>I love words, languages. Equally, I LOVE finding the drama without - before - between them.</p>",
-    "pairs": [
-      "Firmness + flexibility",
-      "Precision + possibility",
-      "Intentional + accidental"
-    ],
+    "statement": "<p>The weird, the surprising and the magical: they’re what excite me. I look for them. I aim to nurture them in myself and those around me, as well as playfulness and curiosity.</p><p>A proud jack of all trades. I love bringing together seemingly disparate things to make something cohesive and beautiful.</p><p>I love words, languages. Equally, I LOVE finding the drama without / before / between them.</p>",
     "latest": [
+      {
+        "text": "ViBrent programme manager, Punchdrunk Enrichment",
+        "year": "2025 to now"
+      },
+      {
+        "text": "Duvet on the UK festival circuit",
+        "project": "duvet",
+        "year": "2026"
+      },
       {
         "text": "Adding Up America at Assembly Roxy, Edinburgh Fringe",
         "project": "adding-up-america",
         "year": "2026"
       },
       {
-        "text": "W*NKERS at Brighton Fringe",
+        "text": "W*NKERS at PEN Theatre",
         "project": "wnkers",
         "year": "2026"
-      },
-      {
-        "text": "Duvet on the festival circuit",
-        "project": "duvet",
-        "year": "2026"
-      },
-      {
-        "text": "ViBrent programme manager, Punchdrunk Enrichment",
-        "year": "2025 to now"
       }
     ]
   },
