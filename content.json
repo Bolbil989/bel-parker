@@ -937,13 +937,33 @@
           "layout": "carousel",
           "fit": "crop",
           "images": [
-            "img/utb28.jpg",
+            "img/utb-08.jpg",
             "img/utb51.jpg",
+            "img/utb-86.jpg",
+            "img/utb-16.jpg",
+            "img/utb-42.jpg",
             "img/utb59.jpg",
-            "img/utb74.jpg"
+            "img/utb-25.jpg",
+            "img/utb-93.jpg",
+            "img/utb15.jpg"
           ],
-          "caption": "Photography: credit to confirm",
+          "caption": "BTS Photography: Ikram Ahmed",
           "alt": "on set"
+        },
+        {
+          "heading": "Stills",
+          "layout": "sheet",
+          "fit": "crop",
+          "images": [
+            "img/utb4.jpg",
+            "img/utb5.jpg",
+            "img/utb3.jpg",
+            "img/utb2.png",
+            "img/utb6.jpg",
+            "img/utb7.jpg",
+            "img/utb8.jpg",
+            "img/utb9.jpg"
+          ]
         }
       ]
     },
