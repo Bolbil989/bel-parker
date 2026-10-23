@@ -722,6 +722,10 @@
           "alt": "Official selection, Aesthetica Film Festival 2026"
         },
         {
+          "image": "img/winnerwhite.png",
+          "alt": "Award Winner - Best Horror Film, London Art Film Awards 2026"
+        },
+        {
           "image": "img/lPh.png",
           "alt": "Finalist, Phantasmagoria Horror Film Festival 2026"
         },
@@ -730,20 +734,16 @@
           "alt": "Official selection, London Breeze Film Festival 2026"
         },
         {
-          "image": "img/lSs.png",
-          "alt": "Official selection, Super Shorts Hackney 2026"
-        },
-        {
           "image": "img/lHr.png",
           "alt": "Nominee, Hastings Rocks International Film Festival 2026"
         },
         {
-          "image": "img/laurel-2026-white.png",
-          "alt": "Official Selection, Soho Horror Film Festival 2026"
+          "image": "img/lSs.png",
+          "alt": "Official selection, Super Shorts Hackney 2026"
         },
         {
-          "image": "img/winnerwhite.png",
-          "alt": "Award Winner - Best Horror Film, London Art Film Awards 2026"
+          "image": "img/laurel-2026-white.png",
+          "alt": "Official Selection, Soho Horror Film Festival 2026"
         }
       ],
       "intro_heading": "Synopsis",
