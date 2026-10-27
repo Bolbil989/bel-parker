@@ -117,7 +117,8 @@
       },
       {
         "title": "Events programming",
-        "intro": "As part of ViBrent: building relationships, conceiving of a programme, administrating, delivering and hosting the event.",
+        "intro": "As part of ViBrent: building relationships, programming workshops and activities, administrating, delivering and hosting the event.",
+        "image": "img/vnm-climate-1.jpg",
         "image_crop": {
           "x": 50,
           "y": 50,
