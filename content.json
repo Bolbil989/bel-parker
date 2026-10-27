@@ -192,12 +192,14 @@
         "items": [
           {
             "title": "The Butcher’s Assistant: a true story set in Alexandria",
-            "text": "Essay, The Markaz Review, July 2024. On working as a butcher’s apprentice in Kom el-Dika while studying Arabic.",
+            "meta": "Essay, The Markaz Review, July 2024. ",
+            "text": "On working as a butcher’s apprentice in Kom el-Dika while studying Arabic.",
             "link": "https://themarkaz.org/the-butchers-assistant-a-true-story-set-in-alexandria/"
           },
           {
             "title": "The Small Clay Plate: a Siwa folk tale",
-            "text": "Fiction, The Markaz Review, December 2024. A tale first heard around a campfire in the Siwa desert.",
+            "meta": "Fiction, The Markaz Review, December 2024. ",
+            "text": "A tale first heard around a campfire in the Siwa desert.",
             "link": "https://themarkaz.org/the-small-clay-plate-a-siwa-folk-tale/"
           }
         ]
