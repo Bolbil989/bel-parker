@@ -32,7 +32,8 @@
     "statement": "<p>The weird, the surprising and the magical: they’re what excite me. I look for them. I aim to nurture them in myself and those around me, as well as playfulness and curiosity.</p><p>A proud jack of all trades. I love bringing together seemingly disparate things to make something cohesive and beautiful.</p><p>I love words, languages. Equally, I LOVE finding the drama without / before / between them.</p>",
     "latest": [
       {
-        "text": "ViBrent programme manager, Punchdrunk Enrichment",
+        "text": "ViBrent Programme Manager, Punchdrunk Enrichment",
+        "project": "https://www.brentcreates.com/vibrent/",
         "year": "2025 to now"
       },
       {
@@ -615,7 +616,7 @@
       "year": "2022",
       "card_image": "img/cm1.jpg",
       "card_crop": {
-        "x": 50,
+        "x": 0,
         "y": 50,
         "zoom": 100
       },
@@ -707,7 +708,7 @@
         "Director",
         "Short film, 2025"
       ],
-      "card_text": "A surreal horror short about coercive control. Official selection, Aesthetica Film Festival 2026.",
+      "card_text": "An award-winning offbeat horror short about coercive control. Official selection, Aesthetica Film Festival 2026.",
       "hero_image": "img/dvKey.jpg",
       "hero_crop": {
         "x": 50,
