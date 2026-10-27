@@ -616,7 +616,7 @@
       "year": "2022",
       "card_image": "img/cm1.jpg",
       "card_crop": {
-        "x": 0,
+        "x": 90,
         "y": 50,
         "zoom": 100
       },
