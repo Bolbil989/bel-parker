@@ -90,8 +90,8 @@
         "items": [
           {
             "title": "Music and Drama Expo",
-            "meta": "Theatre and Supporting Young People",
-            "text": "2023"
+            "meta": "2023",
+            "text": "Delivering multiple workshops around Theatre and Supporting Young People"
           },
           {
             "title": "5Day Film Club",
@@ -105,8 +105,8 @@
           },
           {
             "title": "NHS Mental Health Services",
-            "meta": "Team Building ",
-            "text": "2022"
+            "meta": "2022",
+            "text": "Team Building "
           },
           {
             "title": "Team building, public speaking and empathy workshops.",
@@ -126,13 +126,21 @@
         "image_fit": "crop",
         "items": [
           {
-            "title": "Fundraising"
+            "title": "Fundraising",
+            "meta": "Fresh Arts, 2025",
+            "text": "Bringing together organisations and funders to build a stronger Brent."
           },
           {
-            "title": "Freelancers’ Marketplace"
+            "title": "Freelancers’ Marketplace",
+            "meta": "Willesden Library, 2025",
+            "text": "An afternoon of inspiration, skill-building and connection for Brent’s creative freelancers.",
+            "link": "https://www.punchdrunkenrichment.org.uk/events/vibrent-network-meeting"
           },
           {
-            "title": "The Climate Emergency: What Role Can the Arts Play?"
+            "title": "The Climate Emergency: What Role Can the Arts Play?",
+            "meta": "Metroland Cultures, 2026",
+            "text": "Bringing Brent's creative community together for a day of activities to explore the role of the arts in building a greener future.",
+            "link": "https://www.brentcreates.com/vibrent/news/climate-emergency/"
           }
         ]
       },
