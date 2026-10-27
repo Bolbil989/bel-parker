@@ -886,9 +886,9 @@
           "fit": "crop",
           "images": [
             "img/bts135.jpg",
-            "img/bts72.jpg",
             "img/p1.jpg",
             "img/bts3.jpg",
+            "img/bts72.jpg",
             "img/bts26.jpg",
             "img/bts112.jpg"
           ],
