@@ -694,7 +694,7 @@
       "hero_image": "img/cm1.jpg",
       "hero_crop": {
         "x": 50,
-        "y": 50,
+        "y": 70,
         "zoom": 100
       },
       "hero_alt": "CashMoney Now at The Big House",
