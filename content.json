@@ -1065,12 +1065,12 @@
           "fit": "crop",
           "images": [
             "img/utb-08.jpg",
-            "img/utb-86.jpg",
-            "img/utb-16.jpg",
             "img/utb-42.jpg",
+            "img/utb-16.jpg",
             "img/utb-25.jpg",
             "img/utb-93.jpg",
             "img/utb15.jpg",
+            "img/utb-86.jpg",
             "img/utb14.jpg",
             "img/utb11.jpg"
           ],
