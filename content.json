@@ -29,7 +29,7 @@
     "image": "img/p1.jpg",
     "image_alt": "Bel Parker with lead actor Tee Odom behind the scenes on Duvet",
     "bio": "<p>Bel trained in physical theatre, mask and movement at L’École Internationale de Théâtre Jacques Lecoq in Paris, and then in clown and bouffon with Philippe Gaulier.</p><p>From 2021 to 2024 Bel was Associate Director of The Big House, an award-winning company using theatre and film to transform the lives of care leavers, directing <em>Hansel and Gretel </em>and <em>CashMoney Now </em>there and later the short film <em>Duvet</em>. Bel now freelance directs, while managing the ViBrent programme for Punchdrunk Enrichment.</p><p>She holds a first-class degree in Arabic from SOAS, and speaks English, French, Arabic and Spanish.</p>",
-    "statement": "<p>A proud jack of all trades, a champion of beautiful collisions.</p><p>The weird, the surprising, the funny, the magical &lt;3 They are what I go looking for, what I try to nurture in myself and in those around me.</p><p>I love words, languages. And equally I love the drama without and between them.</p><p>About the audience, I ask \"how does their body respond? And how can the work interact with them-the animal?\"</p>",
+    "statement": "<p>A proud jack of all trades, a champion of beautiful collisions.</p><p>The weird, the surprising, the funny, the magical &lt;3 They are what I go looking for, what I try to nurture in myself and in those around me.</p><p>I love words, languages. And equally I love the drama without and between them.</p><p>About the audience, I ask \"how does their body respond? And how can the work interact with them--the animal?\"</p>",
     "latest": [
       {
         "text": "ViBrent Programme Manager, Punchdrunk Enrichment",
@@ -234,27 +234,27 @@
       "hero_alt": "Hansel and Gretel at The Big House",
       "hero_style": "full",
       "intro_heading": "About the production",
-      "lede": "A promenade retelling of the fairy tale: a story of need, greed and growing up.",
-      "body": "<p>Written by Josh Azouz for The Big House, this production followed two abandoned children through a starving land and into the woods.</p>",
+      "lede": "A story of need, greed and growing up.",
+      "body": "<p>Written by Josh Azouz, this promenade production followed two abandoned children through a starving land and into the woods.</p>",
       "passage": "<p><em>Once upon a time.</em> The land was rotting and the people were hungry.</p><p><em>Once upon a time.</em> The woodcutter and his wife were so very hungry that they couldn’t feed their children, Hansel and Gretel.</p><p><em>Once upon a time.</em> Hansel and Gretel were abandoned in the woods.</p>",
       "body_after": "<p>Set throughout the murky rooms of a disused frame factory, this retelling was tough and wild, funny and shocking.</p>",
       "role_text": "<p></p>",
       "press_heading": "Audience Reviews (press not invited)",
       "press": [
         {
-          "quote": "\"Fantastically ominous and brooding... and then it explodes into extremely vivid, energetic life.\""
+          "quote": "Fantastically ominous and brooding... and then it explodes into extremely vivid, energetic life."
         },
         {
-          "quote": "\"It was such an immersive and captivating experience.\""
+          "quote": "It was such an immersive and captivating experience."
         },
         {
-          "quote": "\"I kind of hated the fact that it ended... It was so much fun.\""
+          "quote": "I kind of hated the fact that it ended... It was so much fun."
         },
         {
-          "quote": "\"Really ambitious, really expansive. I've had a great time.\""
+          "quote": "Really ambitious, really expansive. I've had a great time."
         },
         {
-          "quote": "\"Profoundly moving, entertaining, and absolutely spoke to me on so many levels about so many issues that are focusing on young people today.\""
+          "quote": "Profoundly moving, entertaining, and absolutely spoke to me on so many levels about so many issues that are focusing on young people today."
         }
       ],
       "facts_heading": "The production",
@@ -337,7 +337,7 @@
       "id": "adding-up-america",
       "section": "theatre",
       "title": "Adding Up America",
-      "role": "Director",
+      "role": "Director and dramaturg",
       "year": "2026",
       "card_image": "img/aua1.jpg",
       "card_crop": {
@@ -368,19 +368,19 @@
       "press_heading": "Audience reviews",
       "press": [
         {
-          "quote": "“Fabulous! Smart. Funny. Moving.”\n",
+          "quote": "Fabulous! Smart. Funny. Moving.\n",
           "source": "Alina Addison · Audience review"
         },
         {
-          "quote": "“Profoundly moving, deeply resonant, and breathtakingly original.”",
+          "quote": "Profoundly moving, deeply resonant, and breathtakingly original.",
           "source": "Lucy Idil Jordan · Audience review "
         },
         {
-          "quote": "“The show manages to be deeply thought-provoking and fun at the same time.”",
+          "quote": "The show manages to be deeply thought-provoking and fun at the same time.",
           "source": "JJ · Audience review"
         },
         {
-          "quote": "“Monique was outstanding! Masterful to take such an important topic, combine it with music, comedy and acting.”",
+          "quote": "Monique was outstanding! Masterful to take such an important topic, combine it with music, comedy and acting.",
           "source": "Nicky Brown · Audience review "
         }
       ],
