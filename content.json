@@ -701,7 +701,7 @@
       "hero_style": "full",
       "intro_heading": "About the production",
       "lede": "A breakneck tale of con artists, hackers, sugar daddies and crypto bros.",
-      "body": "<p>When her little sister loses everything to an online scam, Anna goes after the scammer, deep into the murkiest corners of the internet, where revenge comes with the chance of the heist of a lifetime.</p><p>Bel developed the script with writer James Fritz and directed the production for The Big House, where she was Associate Director.</p>",
+      "body": "<p>When her little sister loses everything to an online scam, Anna chases the scammer deep into the murkiest corners of the internet, where revenge comes with the chance of the heist of a lifetime.</p><p>Bel developed the script with writer James Fritz and directed the production for The Big House, where she was Associate Director.</p>",
       "passage": "<p></p>",
       "body_after": "<p></p>",
       "role_text": "<p></p>",
@@ -713,7 +713,6 @@
           "stars": 5
         }
       ],
-      "todo": "The rest of the creative team, if you’d like them listed.",
       "facts_heading": "The production",
       "facts": [
         {
@@ -738,6 +737,22 @@
         {
           "label": "Writer",
           "value": "James Fritz"
+        },
+        {
+          "label": "Set Design",
+          "value": "Max John"
+        },
+        {
+          "label": "Sound Design",
+          "value": "Esther Kehinde Ajayi"
+        },
+        {
+          "label": "Lighting Design",
+          "value": "Lucy Adams"
+        },
+        {
+          "label": "Costume Design",
+          "value": "Mallika Joy"
         }
       ],
       "galleries": [
@@ -751,7 +766,7 @@
             "img/cm4.jpg",
             "img/cm5.jpg"
           ],
-          "caption": "Photography: credit to confirm",
+          "caption": "Photography by Dylan Nolte and Dan.",
           "alt": "production photograph"
         }
       ]
@@ -762,7 +777,7 @@
       "title": "Duvet",
       "role": "Director",
       "year": "2025",
-      "card_image": "img/ds21.jpg",
+      "card_image": "img/dvKey.jpg",
       "card_crop": {
         "x": 50,
         "y": 50,
@@ -810,6 +825,9 @@
         {
           "image": "img/laurel-2026-white.png",
           "alt": "Official Selection, Soho Horror Film Festival 2026"
+        },
+        {
+          "image": "img/official-selection-grimmfest-2026.png"
         }
       ],
       "intro_heading": "Synopsis",
@@ -923,9 +941,11 @@
             "img/bts135.jpg",
             "img/p1.jpg",
             "img/bts3.jpg",
-            "img/bts72.jpg",
-            "img/bts26.jpg",
-            "img/bts112.jpg"
+            "img/bts112.jpg",
+            "img/duvetjuanbts107.jpg",
+            "img/duvetjuanbts108.jpg",
+            "img/bts71.jpg",
+            "img/londonartfilmawards2026-229.jpg"
           ],
           "caption": "Photography: Juan Camilo Suarez, Zehn Studio",
           "alt": "behind the scenes"
