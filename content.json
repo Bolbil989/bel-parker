@@ -75,7 +75,6 @@
   },
   "etcetera": {
     "heading": "ETCETERA",
-    "intro": "Some of the rest...",
     "sections": [
       {
         "title": "Workshops and facilitation",
@@ -1122,11 +1121,7 @@
       "facts": [
         {
           "label": "Format",
-          "value": "Comedy cooking series"
-        },
-        {
-          "label": "For",
-          "value": "The Big Mouth"
+          "value": "Youtube comedy cooking series"
         }
       ],
       "credits_heading": "Credits",
