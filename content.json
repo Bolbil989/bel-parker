@@ -431,11 +431,11 @@
           "fit": "crop",
           "images": [
             "img/aua2.jpg",
+            "img/aua7.jpg",
+            "img/aua5.jpg",
             "img/aua3.jpg",
             "img/aua4.jpg",
-            "img/aua5.jpg",
-            "img/aua6.jpg",
-            "img/aua7.jpg"
+            "img/aua6.jpg"
           ],
           "caption": "Photography: Alex Brenner",
           "alt": "production photograph"
