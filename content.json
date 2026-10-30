@@ -660,11 +660,15 @@
           "layout": "carousel",
           "fit": "crop",
           "images": [
-            "img/ss2.jpg",
-            "img/ss3.jpg",
             "img/ss4.jpg",
             "img/ss5.jpg",
-            "img/ss6.jpg"
+            "img/ss2.jpg",
+            "img/ss3.jpg",
+            "img/ss6.jpg",
+            "img/pedroportorovino9.jpg",
+            "img/ss7.jpg",
+            "img/ss8.jpg",
+            "img/dsc1062copy.jpg"
           ],
           "caption": "Photography includes work by Pedro Porto Rovino. Other credits to confirm.",
           "alt": "production photograph"
