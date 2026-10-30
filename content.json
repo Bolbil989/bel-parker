@@ -21,7 +21,7 @@
     "image_crop": {
       "x": 50,
       "y": 100,
-      "zoom": 110
+      "zoom": 100
     },
     "image_fade": false
   },
